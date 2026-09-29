@@ -1,10 +1,15 @@
 ---
-title: "Workshop 1"
-format: html
+title: "WORKSHOP 1: FOUNDATIONS OF DATA SCIENCE"
+author: "Giuliana Ponce"
+format:
+  html: 
+    code-fold: true
+    code-summary: "Show code"
+    code-tools: true
 editor: visual
 ---
-
-# Workshop 1
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+## NOTES
 
 ### 1. Ingesting data into R
 
@@ -269,5 +274,5 @@ biological_signal <- penguins %>%
 
 print(biological_signal)
 ```
-
-### 6. **Integrating data grammar with visual diagnostics in qmd**
+:::
+## CHALLENGES:
